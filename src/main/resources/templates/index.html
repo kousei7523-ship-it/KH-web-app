@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>業務用アプリケーション</title>
+    <title>ログイン機能</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 100px;
+            border: 2px solid #333;
+            padding: 10px;
+            border-radius: 6px;
+            display: inline-block;
+            background-color: #f9f9f9;
+        }
+        input{
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
-    <h1>業務用アプリケーション　試作</h1>
+<form>
+    <div class="box">
+        <label for="Userid">ID:</label>
+        <input type="text" id="Userid" name="Userid" placeholder="10桁の英数字を入力して下さい">
+    </div>
+</form>
 </body>
 </html>
